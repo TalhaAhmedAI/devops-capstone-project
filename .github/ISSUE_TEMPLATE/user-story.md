@@ -7,15 +7,14 @@ assignees: TalhaAhmedAI
 
 ---
 
-**As a** developer  
-**I need** to create a RESTful API 
-**So that** I can read, update, delete, and list customers  
+**As a** [role]  
+**I need** [function]  
+**So that** [benefit]  
       
 ### Details and Assumptions
-    *   Database model and a Python Flask-based REST API with an endpoint to create a customer account already exist.
-   
+    * [document what you know]      
 ### Acceptance Criteria     
     gherkin 
-    Given after the successful creation
-    When I call an API
-    Then it should perform the requested action
+    Given [some context]
+    When [certain action is taken]
+    Then [the outcome of action is observed]
