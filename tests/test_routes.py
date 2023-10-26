@@ -174,8 +174,3 @@ class TestAccountService(TestCase):
         resp = self.client.delete(f"{BASE_URL}/{account.id}")
 
         self.assertEqual(resp.status_code, status.HTTP_204_NO_CONTENT)
-<<<<<<< HEAD
-=======
-    
-    #Adding a comment to test the build
->>>>>>> parent of 5abf206 (added a print statement)
