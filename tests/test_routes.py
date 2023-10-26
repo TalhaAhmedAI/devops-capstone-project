@@ -40,7 +40,6 @@ class TestAccountService(TestCase):
         app.logger.setLevel(logging.CRITICAL)
         talisman.force_https = False
         init_db(app)
-        
 
     @classmethod
     def tearDownClass(cls):
